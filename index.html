@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body class="font-sans bg-very-dark-blue">
+    <div class="flex justify-center lg:items-center lg:h-screen">
+      <!--
+      Tarjeta
+      -->
+      <div
+        class="w-[410px] lg:w-[1110px] lg:flex-row-reverse flex flex-col justify-center items-center bg-dark-desaturated-blue rounded-lg my-20 overflow-hidden"
+      >
+        <!--
+      Imagen
+      -->
+        <img
+          src="./images/image-header-mobile.jpg"
+          alt="Header image showing data analytics"
+          class="lg:hidden"
+        />
+        <img
+          src="./images/image-header-desktop.jpg"
+          alt="Header image showing data analytics"
+          class="hidden lg:inline"
+        />
+        <!--
+      Contenido
+      -->
+        <div class="px-10 py-12 text-center lg:text-left lg:py-14 lg:pl-[72px] lg:pr-[140px]">
+          <h2 class="text-4xl font-bold text-white lg:leading-[46px]">
+            Get<span class="text-soft-violet"> insights </span>that help your
+            business grow.
+          </h2>
+          <p class="text-xl mt-6 font-light text-light-grayish-blue lg:text-[16px] lg:leading-[26px]">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <div class="mt-16 flex lg:flex-row lg:text-left flex-col gap-10 lg:gap-16 text-4xl text-white">
+            <div>
+              <h3 class="font-bold lg:text-2xl">10k+</h3>
+              <p class="font-light uppercase text-sm tracking-widest lg:text-[12px]">
+                companies
+              </p>
+            </div>
+            <div>
+              <h3 class="font-bold lg:text-2xl">314</h3>
+              <p class="font-light uppercase text-sm tracking-widest lg:text-[12px]">
+                templates
+              </p>
+            </div>
+            <div>
+              <h3 class="font-bold lg:text-2xl">12m+</h3>
+              <p class="font-light uppercase text-sm tracking-widest lg:text-[12px]">
+                queries
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
